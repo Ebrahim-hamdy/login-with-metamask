@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/login-with-metamask/static/css/main.a056d8f2.chunk.css",
+    "main.js": "/login-with-metamask/static/js/main.ed2b199d.chunk.js",
+    "main.js.map": "/login-with-metamask/static/js/main.ed2b199d.chunk.js.map",
+    "runtime-main.js": "/login-with-metamask/static/js/runtime-main.66d984d5.js",
+    "runtime-main.js.map": "/login-with-metamask/static/js/runtime-main.66d984d5.js.map",
+    "static/js/2.5589b12e.chunk.js": "/login-with-metamask/static/js/2.5589b12e.chunk.js",
+    "static/js/2.5589b12e.chunk.js.map": "/login-with-metamask/static/js/2.5589b12e.chunk.js.map",
+    "index.html": "/login-with-metamask/index.html",
+    "precache-manifest.89356252bd7ac4f6a029ed7182849c31.js": "/login-with-metamask/precache-manifest.89356252bd7ac4f6a029ed7182849c31.js",
+    "service-worker.js": "/login-with-metamask/service-worker.js",
+    "static/css/main.a056d8f2.chunk.css.map": "/login-with-metamask/static/css/main.a056d8f2.chunk.css.map",
+    "static/js/2.5589b12e.chunk.js.LICENSE.txt": "/login-with-metamask/static/js/2.5589b12e.chunk.js.LICENSE.txt",
+    "static/media/workflow.jpg": "/login-with-metamask/static/media/workflow.5206274d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66d984d5.js",
+    "static/js/2.5589b12e.chunk.js",
+    "static/css/main.a056d8f2.chunk.css",
+    "static/js/main.ed2b199d.chunk.js"
+  ]
+}
