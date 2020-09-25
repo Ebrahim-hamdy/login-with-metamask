@@ -115,12 +115,16 @@ export class Login extends React.Component<Props> {
   };
 
   render() {
-    const { loading } = this.state;
+    // const { loading } = this.state;
+    const logo = require('../Assets/Images/LandingBack.jpeg');
+
     return (
-      <div>
-        <button className="Login-button Login-mm" onClick={this.handleClick}>
+      <div className="DNL-Landing">
+        <img src={logo} alt=""></img>
+        <div className="DNL-ClickingContainer" onClick={this.handleClick}></div>
+        {/* <button className="Login-button Login-mm" onClick={this.handleClick}>
           {loading ? 'Loading...' : 'Login with MetaMask'}
-        </button>
+        </button> */}
       </div>
     );
   }

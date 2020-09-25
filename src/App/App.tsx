@@ -6,7 +6,7 @@ import { Login } from '../Login';
 import { Profile } from '../Profile/Profile';
 import { Auth } from '../types';
 // import logo from './logo.svg';
-import logo from './workflow.jpg';
+// import logo from './workflow.jpg';
 
 const LS_KEY = 'login-with-metamask:auth';
 
@@ -41,7 +41,7 @@ export class App extends React.Component<{}, State> {
 
     return (
       <div className="App">
-        <header className="App-header">
+        {/* <header className="App-header">
           <img
             src={logo}
             // className="App-logo"
@@ -49,7 +49,7 @@ export class App extends React.Component<{}, State> {
             style={{ height: '95%' }}
           />
           <h1 className="App-title">Welcome to Login with MetaMask Demo</h1>
-        </header>
+        </header> */}
         <div className="App-intro">
           {auth ? (
             <Profile auth={auth} onLoggedOut={this.handleLoggedOut} />

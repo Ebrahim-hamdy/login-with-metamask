@@ -1,4 +1,4 @@
-import './index.css';
+import './index.scss';
 
 import { config as dotEnvConfig } from 'dotenv';
 import React from 'react';
