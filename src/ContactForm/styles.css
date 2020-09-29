@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background: white;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+fieldset {
+  display: flex;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  border: 0;
+}
+fieldset legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+fieldset label {
+  padding: 8px 0;
+}
+fieldset input,
+fieldset textarea {
+  border: 1px solid #e6e6e6;
+  padding: 5px 8px;
+  border-radius: 3px;
+  width: 100%;
+}
+fieldset button {
+  border-radius: 3px;
+  border: 1px solid #3f51b5;
+  background: #3f51b5;
+  color: #fff;
+  padding: 8px 10px;
+  cursor: pointer;
+}

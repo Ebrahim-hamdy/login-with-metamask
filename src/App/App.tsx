@@ -4,6 +4,8 @@ import React from 'react';
 
 import { Login } from '../Login';
 import { Profile } from '../Profile/Profile';
+import { ContactForm } from '../ContactForm';
+
 import { Auth } from '../types';
 // import logo from './logo.svg';
 // import logo from './workflow.jpg';
@@ -40,7 +42,7 @@ export class App extends React.Component<{}, State> {
     const { auth } = this.state;
 
     return (
-      <div className="App">
+      <div className='App'>
         {/* <header className="App-header">
           <img
             src={logo}
@@ -50,9 +52,12 @@ export class App extends React.Component<{}, State> {
           />
           <h1 className="App-title">Welcome to Login with MetaMask Demo</h1>
         </header> */}
-        <div className="App-intro">
+        <div className='App-intro'>
           {auth ? (
-            <Profile auth={auth} onLoggedOut={this.handleLoggedOut} />
+            <>
+              <Profile auth={auth} onLoggedOut={this.handleLoggedOut} />
+              <ContactForm />
+            </>
           ) : (
             <Login onLoggedIn={this.handleLoggedIn} />
           )}

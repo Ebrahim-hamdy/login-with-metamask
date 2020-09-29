@@ -2,7 +2,7 @@
   "name": "login-with-metamask",
   "version": "2.0.0",
   "description": "Demo project for 'Login with Blockchain: A MetaMask Tutorial'",
-  "homepage": "http://ebrahim-hamdy.github.io/login-with-metamask",
+  "homepage": "./",
   "license": "MIT",
   "main": "build",
   "private": true,
