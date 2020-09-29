@@ -102,7 +102,13 @@ export class Profile extends React.Component<Props, State> {
           My username is {username ? <pre>{username}</pre> : 'not set.'} My
           publicAddress is <pre>{publicAddress}</pre>
         </div>
-
+        <div>
+          <label htmlFor='username'>Change username: </label>
+          <input name='username' onChange={this.handleChange} />
+          <button disabled={loading} onClick={this.handleSubmit}>
+            Submit
+          </button>
+        </div>
         <p>
           <button onClick={onLoggedOut}>Logout</button>
         </p>
